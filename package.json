@@ -4,9 +4,10 @@
   "description": "Truffle project with HealthCare contract",
   "main": "truffle-config.js",
   "dependencies": {
-    "@truffle/hdwallet-provider": "^2.0.10"
+    "@truffle/hdwallet-provider": "^2.0.10",
+    "dotenv": "^16.1.4",
+    "truffle-plugin-verify": "^0.6.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "truffle test"
   },
